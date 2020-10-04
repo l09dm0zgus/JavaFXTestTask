@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="312.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testapp.controllers.ProductInformationController">
+   <children>
+      <Label fx:id="categoryLabel" layoutY="14.0" prefHeight="54.0" prefWidth="329.0" text="Category" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel" layoutY="68.0" prefHeight="54.0" prefWidth="329.0" text="Price" AnchorPane.bottomAnchor="190.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="68.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="weightLabel" layoutY="122.0" prefHeight="54.0" prefWidth="329.0" text="Weight" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="176.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="printButton" layoutX="127.0" layoutY="227.0" mnemonicParsing="false" onAction="#onPrintButtonPressed" prefHeight="32.0" prefWidth="75.0" text="Print" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="127.0" />
+      <Label fx:id="costLabel" layoutY="122.0" prefHeight="54.0" prefWidth="329.0" text="Cost" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="122.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
